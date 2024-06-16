@@ -1,6 +1,7 @@
 import speech_recognition as sr
 import webbrowser
 import pyttsx3
+import music_Library
 
 recognizer = sr.Recognizer()
 engine = pyttsx3.init()
@@ -15,7 +16,14 @@ def process_Command(c):
         webbrowser.open("https://youtube.com")
     elif "open instagram" in c.lower():
         webbrowser.open("https://instagram.com")
-    pass
+    elif c.lower().startswith("play"):
+        song = c.lower().split(" ")[1] 
+        link = music_Library.music[song]
+        webbrowser.open(link)
+
+#what does song = c.lower().split(" ")[1] command do,
+# if we say play cartoon, it just split these word into a list like ["play", "cartoon"] and it search for the index value 1
+#that is cartoon (index value always starts with 0)
 
 #Python's if __name__ == "__main__": construct enables a single Python file to not only support reusable code and functions, but also contain executable code that will not explicitly run when a module is imported.
 if __name__ == "__main__":
