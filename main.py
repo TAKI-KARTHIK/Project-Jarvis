@@ -44,10 +44,7 @@ if __name__ == "__main__":
                        print("Jarvis Active..")
                        audio = r.listen(source)
                        command = r.recognize_google(audio)
-
                        process_Command(command)
-
-
         except sr.UnknownValueError:
             print("Sphinx could not understand audio")
         except sr.RequestError as e:
