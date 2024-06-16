@@ -4,4 +4,3 @@ import pyttsx3
 
 recognizer = sr.Recognizer()
 ttsx = pyttsx3.init()
-def speak(text):
