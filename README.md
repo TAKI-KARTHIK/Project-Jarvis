@@ -4,8 +4,8 @@ Jarvis is an AI-based personal assistant that can help you automate tasks, retri
 
 ## ✨ Features
 
-- **🗣️ Voice Commands: Control Jarvis using natural language voice commands.
-- **🤖 Task Automation: Automate repetitive tasks and streamline your workflow.
+- 🗣️ Voice Commands: Control Jarvis using natural language voice commands.
+- 🤖 Task Automation: Automate repetitive tasks and streamline your workflow.
 - **🌐 Information Retrieval: Get real-time information like weather updates, news, and more.
 - **🔧 Customizable: Easily extend Jarvis's capabilities with custom plugins and modules.
 - **💻 Cross-Platform: Works on multiple operating systems including Windows, macOS, and Linux.
