@@ -16,9 +16,7 @@ Jarvis is an AI-based personal assistant that can help you automate tasks, retri
 
 Please make sure you have Python installed on your system.
 ```bash
-pip install pyaudio
-pip install SpeechRecognition
-pip install pyttsx3
+pip install SpeechRecognition pyttsx3 pyaudio
 ```
 
 
